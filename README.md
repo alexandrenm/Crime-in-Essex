@@ -49,3 +49,77 @@ map01 <- ggmap(get_map(location='Essex', zoom=9)) +
 Output
 
 (WORK IN PROGRESS - GGMAP NOT WORKING)
+
+Data Summmary:
+
+Easily and quickly some useful information
+
+```
+summary(january18)
+```
+
+```
+(...)  
+    Latitude                                  Location         LSOA.code    
+ Min.   :50.73   On or near Parking Area          :  565   E01021649:  267  
+ 1st Qu.:51.56   On or near Supermarket           :  563   E01022090:  193  
+ Median :51.67   On or near Shopping Area         :  413   E01015852:  182  
+ Mean   :51.69   On or near Petrol Station        :  371   E01033140:  143  
+ 3rd Qu.:51.81   On or near Sports/Recreation Area:  307   E01016011:  134  
+ Max.   :54.66   On or near Pedestrian Subway     :  161   E01021318:  134  
+ NA's   :2       (Other)                          :12406   (Other)  :13733  
+                LSOA.name                            Crime.type  
+ Colchester 007D     :  267   Violence and sexual offences:3949  
+ Uttlesford 006B     :  193   Anti-social behaviour       :3420  
+ Southend-on-Sea 015B:  182   Criminal damage and arson   :1311  
+ Chelmsford 010F     :  143   Vehicle crime               :1301  
+ Basildon 015C       :  134   Burglary                    :1091  
+ Thurrock 015B       :  134   Other theft                 :1073  
+ (Other)             :13733   (Other)                     :2641  
+                                   Last.outcome.category Context       
+ Under investigation                          :5031      Mode:logical  
+ Investigation complete; no suspect identified:4110      NA's:14786    
+                                              :3420                    
+ Unable to prosecute suspect                  : 894                    
+ Awaiting court outcome                       : 447                    
+ Formal action is not in the public interest  : 404                    
+ (Other)                                      : 480                
+```
+
+```
+install.packages("epiDisplay")
+library(epiDisplay
+
+tab1(january18$Crime.type, sort.group = 'decreasing')
+```
+```
+january18$Crime.type : 
+                             Frequency Percent Cum. percent
+Violence and sexual offences      3949    26.7         26.7
+Anti-social behaviour             3420    23.1         49.8
+Criminal damage and arson         1311     8.9         58.7
+Vehicle crime                     1301     8.8         67.5
+Burglary                          1091     7.4         74.9
+Other theft                       1073     7.3         82.1
+Public order                       776     5.2         87.4
+Shoplifting                        731     4.9         92.3
+Drugs                              325     2.2         94.5
+Other crime                        245     1.7         96.2
+Possession of weapons              156     1.1         97.2
+Theft from the person              146     1.0         98.2
+Bicycle theft                      134     0.9         99.1
+Robbery                            128     0.9        100.0
+  Total                          14786   100.0        100.0
+```
+
+
+(WORK IN PROGRESS)
+
+## Authors
+
+Alexandre Marques
+
+## Acknowledgments
+
+* [Analytics Defined](https://analyticsdefined.com/plotting-maps-in-r-using-ggmap/)
+
