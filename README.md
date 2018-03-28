@@ -116,8 +116,12 @@ Robbery                            128     0.9        100.0
 * Title and colours can be better
 * Anyway, an easy and meaningful chart
 
-![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18.png)
+```
+tab1(january18$Crime.type, sort.group = 'decreasing', col='darkred', main = "Crimes in Essex, January 2018")
+```
 
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18.png)
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18b.png)
 
 (WORK IN PROGRESS)
 
