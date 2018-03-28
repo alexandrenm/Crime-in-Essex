@@ -110,8 +110,11 @@ Theft from the person              146     1.0         98.2
 Bicycle theft                      134     0.9         99.1
 Robbery                            128     0.9        100.0
   Total                          14786   100.0        100.0
-```
 
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/tab1.png)
+```
+* Title and colours can be better
+* Anyway, an easy and meaningful chart
 
 (WORK IN PROGRESS)
 
