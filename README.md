@@ -88,7 +88,7 @@ summary(january18)
 * Alternativelly,
 ```
 install.packages("epiDisplay")
-library(epiDisplay
+library(epiDisplay)
 
 tab1(january18$Crime.type, sort.group = 'decreasing')
 ```
@@ -117,6 +117,40 @@ Robbery                            128     0.9        100.0
 * Anyway, an easy and meaningful chart
 
 (WORK IN PROGRESS)
+
+Yet, another possibility
+
+```
+install.packages("summarytools")
+library(summarytools)
+
+Summarytools::freq(january18$Crime.type, order='freq')
+```
+```
+Frequencies   
+Crime.type     
+Data frame: january18   
+Type: Factor (unordered)   
+
+                                      Freq   % Valid   % Valid Cum.   % Total   % Total Cum.
+---------------------------------- ------- --------- -------------- --------- --------------
+      Violence and sexual offences    3949     26.71          26.71     26.71          26.71
+             Anti-social behaviour    3420     23.13          49.84     23.13          49.84
+         Criminal damage and arson    1311      8.87          58.70      8.87          58.70
+                     Vehicle crime    1301      8.80          67.50      8.80          67.50
+                          Burglary    1091      7.38          74.88      7.38          74.88
+                       Other theft    1073      7.26          82.14      7.26          82.14
+                      Public order     776      5.25          87.39      5.25          87.39
+                       Shoplifting     731      4.94          92.33      4.94          92.33
+                             Drugs     325      2.20          94.53      2.20          94.53
+                       Other crime     245      1.66          96.19      1.66          96.19
+             Possession of weapons     156      1.06          97.24      1.06          97.24
+             Theft from the person     146      0.99          98.23      0.99          98.23
+                     Bicycle theft     134      0.91          99.13      0.91          99.13
+                           Robbery     128      0.87         100.00      0.87         100.00
+                              <NA>       0                               0.00         100.00
+                             Total   14786    100.00         100.00    100.00         100.00
+```
 
 ## Authors
 
