@@ -50,9 +50,9 @@ Output
 
 (WORK IN PROGRESS - GGMAP NOT WORKING)
 
-Data Summmary:
+*Data Summmary:*
 
-Easily and quickly some useful information
+* Easily and quickly some useful information
 
 ```
 summary(january18)
@@ -85,7 +85,7 @@ summary(january18)
  Formal action is not in the public interest  : 404                    
  (Other)                                      : 480                
 ```
-
+* Alternativelly,
 ```
 install.packages("epiDisplay")
 library(epiDisplay
