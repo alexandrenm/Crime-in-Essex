@@ -116,6 +116,9 @@ Robbery                            128     0.9        100.0
 * Title and colours can be better
 * Anyway, an easy and meaningful chart
 
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18.png)
+
+
 (WORK IN PROGRESS)
 
 * Yet, another possibility
