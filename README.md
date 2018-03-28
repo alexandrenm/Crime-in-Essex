@@ -4,7 +4,7 @@ Geospatial visualisation of the criminanity in Essex.
 
 ## Description
 
-It is based on January 2018 crime data. Knowing it does not change much over time, this month alone is quite representative of the criminal hotspots in Essex. Naturally, other months can be ploted and compared.
+It is based on January 2018 crime data. Knowing it does not change much over time, this month alone is quite representative of the criminal hotspots in Essex. Naturally, other months can be plotted and compared.
 
 ## Getting Started
 
