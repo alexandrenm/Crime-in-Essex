@@ -28,10 +28,23 @@ Importing data to R(Studio):
 january18 <- read.csv('C:/Users/Alex/Desktop/2018-01/2018-01-essex-street.csv') # Crimes in Essex in January 2018
 ```
 
+Libraries and packages
+
+```
+install.packages("ggplot2") # if needed
+install.packages("ggmap") # if needed
+
+library(ggplot2)
+library(ggmap)
+```
+
 Then
 
 ```
-map01 <- ggmap(get_map(location='Essex', zoom=9)) + geom_hex(data = january18, aes(x=Longitude, y=Latitude)) + ggtitle("Crime Density in Essex in January 2018") + theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_blank(), axis.title.y = element_blank())
+map01 <- ggmap(get_map(location='Essex', zoom=9)) + 
+    geom_hex(data = january18, aes(x=Longitude, y=Latitude)) + 
+    ggtitle("Crime Density in Essex in January 2018") + 
+    theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_blank(), axis.title.y = element_blank())
 ```
 Output
 
