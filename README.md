@@ -113,8 +113,8 @@ Robbery                            128     0.9        100.0
 ```
 ![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18b.png)
 
-* Title and colours can be better
-* Anyway, an easy and meaningful chart
+* An easy and meaningful chart
+* Shouls add the source (data.police.uk/data) on the chart, next time
 
 ```
 tab1(january18$Crime.type, sort.group = 'decreasing', col='darkred', main = "Crimes in Essex, January 2018")
