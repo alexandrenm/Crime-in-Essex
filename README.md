@@ -38,7 +38,7 @@ library(ggplot2)
 library(ggmap)
 ```
 
-Then
+Then,
 
 ```
 map01 <- ggmap(get_map(location='Essex', zoom=9)) + 
@@ -50,7 +50,7 @@ Output
 
 (WORK IN PROGRESS - GGMAP NOT WORKING)
 
-*Data Summmary:*
+**Data Summmary:**
 
 * Easily and quickly some useful information
 
