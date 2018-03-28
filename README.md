@@ -90,7 +90,7 @@ summary(january18)
 install.packages("epiDisplay")
 library(epiDisplay)
 
-tab1(january18$Crime.type, sort.group = 'decreasing')
+tab1(january18$Crime.type, sort.group = 'decreasing', col='darkred', main = "Crimes in Essex, January 2018")
 ```
 ```
 january18$Crime.type : 
@@ -111,7 +111,7 @@ Bicycle theft                      134     0.9         99.1
 Robbery                            128     0.9        100.0
   Total                          14786   100.0        100.0
 ```
-![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/tab1.png)
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18b.png)
 
 * Title and colours can be better
 * Anyway, an easy and meaningful chart
@@ -120,9 +120,6 @@ Robbery                            128     0.9        100.0
 tab1(january18$Crime.type, sort.group = 'decreasing', col='darkred', main = "Crimes in Essex, January 2018")
 ```
 
-![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18.png)
-![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18b.png)
-![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18c.png)
 
 
 (WORK IN PROGRESS)
