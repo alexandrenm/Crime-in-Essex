@@ -122,6 +122,8 @@ tab1(january18$Crime.type, sort.group = 'decreasing', col='darkred', main = "Cri
 
 ![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18.png)
 ![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18b.png)
+![](https://github.com/alexandrenm/Crime-in-Essex/blob/master/jan18c.png)
+
 
 (WORK IN PROGRESS)
 
