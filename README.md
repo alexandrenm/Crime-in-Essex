@@ -27,3 +27,4 @@ Importing data to R(Studio):
 ```
 january18 <- read.csv('C:/Users/Alex/Desktop/2018-01/2018-01-essex-street.csv') # Crimes in Essex in January 2018
 ```
+(WORK IN PROGRESS - GGMAP NOT WORKING)
