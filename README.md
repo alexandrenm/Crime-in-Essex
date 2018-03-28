@@ -118,7 +118,7 @@ Robbery                            128     0.9        100.0
 
 (WORK IN PROGRESS)
 
-Yet, another possibility
+* Yet, another possibility
 
 ```
 install.packages("summarytools")
@@ -151,6 +151,8 @@ Type: Factor (unordered)
                               <NA>       0                               0.00         100.00
                              Total   14786    100.00         100.00    100.00         100.00
 ```
+
+(WORK IN PROGRESS)
 
 ## Authors
 
