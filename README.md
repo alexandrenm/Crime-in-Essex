@@ -1,6 +1,6 @@
 # Crime in Essex
 
-Geospatial visualisation of the criminanity in Essex.
+Geospatial visualisation of, and some stats about, the criminanity in Essex.
 
 ## Description
 
